@@ -1,0 +1,54 @@
+#main{
+    font-family: alef;
+    margin:0.5rem;
+    text-align:center;
+    transition: all 0.3s ease-in;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #title{
+    color: black;
+    text-shadow: 0 0 0.2rem purple;
+  }
+  
+  section, #img-div { 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: rgba(30,40,150,0.1);
+    margin:0.6rem 0;
+    border-radius: 1rem;
+    width:70%;
+  }
+  
+  #image {
+    border-radius: 1rem;
+    box-shadow: 0 0 1.2rem purple;
+    margin:1.8rem 0.5rem;
+    opacity:0.9;
+    max-width:100%;
+    height:auto;
+  }
+  
+  #img-caption {
+    font-size: 0.9rem;
+    margin:0.5rem 0.4rem;
+    max-width:80%;
+  }
+  
+  #tribute-link{
+    color:blue;
+    text-decoration:none;
+  }
+  
+  #tribute-link:hover{
+    transform: scale(1.2);
+  }
+  
+  #tribute-info div{
+    margin:1rem;
+    text-align:left;
+    line-height:1.8rem;
+  }
